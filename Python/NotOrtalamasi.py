@@ -1,3 +1,9 @@
+#kulanıcıdan vize ve fianl notları al
+#vize %40 final %60
+#değer double olbabilir
+#0-49 FF, 50-60 DD, 60-70 CC ,70-80 BB, 80-100 AA
+#not ortalaması ve harf gdeğeri yazdır
+
 print("vize Notunuzu giriniz")
 vizeNotu=float(input())
 print("final Notunuzu giriniz")
@@ -18,4 +24,5 @@ elif ortalamanot>=80 and ortalamanot>=100:
     print("AA ile geçtiniz")
 else: 
     print(f"Sınava girmediniz notunuz:{ortalamanot}")
+
 

@@ -35,11 +35,22 @@ elif lessonNote==49:
 else:
     print("kaldınız")
 
-#kulanıcıdan vize ve fianl notları al
-#vize %40 final %60
-#değer double olbabilir
-#0-49 FF, 50-60 DD, 60-70 CC ,70-80 BB, 80-100 AA
-#not ortalaması ve harf gdeğeri yazdır
+#döngüler
+
+for i in range(6):
+    print(i)
+
+students= ["Nilüfer","özlem","Berk","Zakir"]
+for i in students:
+    print(i)
+
+i=0
+while 1<10:
+    print(i)
+    i+=1
+
+
+
 
 
 

@@ -17,7 +17,7 @@ buton=driver.find_element(By.XPATH,"/html/body/main/section[1]/div/div/form/butt
 buton.click()
 sleep(3)
 title = driver.title
-if  title=="(1) Akış | LinkedIn":
+if  title=="Jobs | LinkedIn":
     print("Giriş başarılı ✅")
 else:
     print("Giriş başarısız!❌") 
